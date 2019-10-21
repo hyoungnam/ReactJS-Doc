@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import MainConcepts from './mainConcepts/MainConcepts';
+import Game from './tutorials/TicTaeToc';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<MainConcepts />, document.getElementById('root'));
+ReactDOM.render(<Game />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
